@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <title>Minha Landing Page</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+<header>
+    <nav>
+        <h1>João Victor</h1>
+        <ul>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#habilidades">Habilidades</a></li>
+            <li><a href="#api">APIs</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section class="hero">
+    <h2>Bem Vindo! Prazer João Victor</h2>
+    <p>Atualmente Curso o 1° Semestre de Análise e Desenvolvimento de Sistemas!</p>
+</section>
+
+<section id="sobre">
+    <h2>Sobre Mim</h2>
+    <p>
+        Como acadêmico de ADS estou aprendendo desenvolvimento web.
+        Tenho interesse em programação e criação de sistemas.
+        Com eficaz aprendizado e foco na solução de problemas.
+    </p>
+</section>
+
+<section id="habilidades">
+    <h2>Habilidades</h2>
+    <div class="cards">
+        <div class="card">HTML</div>
+        <div class="card">CSS</div>
+        <div class="card">JavaScript</div>
+    </div>
+</section>
+
+<section id="redes">
+    <h2>Minhas Redes</h2>
+    <div class="social">
+        <a href="https://github.com/Jvdelaxz/omelhor" target="_blank">GitHub</a>
+        <a href="https://wa.me/5566992315376" target="_blank">Whatsapp</a>
+        <a href="https://www.instagram.com/jaaoxz/" target="_blank">Instagram</a>    </div>
+</section>
+
+<section id="api">
+    <h2>Integração com APIs</h2>
+
+    <div class="api-box">
+        <h3>Buscar CEP</h3>
+        <input type="text" id="cep" placeholder="Digite o CEP">
+        <button onclick="buscarCEP()">Buscar</button>
+        <p id="resultadoCep"></p>
+    </div>
+
+    <div class="api-box">
+        <h3>Buscar CNPJ</h3>
+        <input type="text" id="cnpj" placeholder="Digite o CNPJ">
+        <button onclick="buscarCNPJ()">Buscar</button>
+        <p id="resultadoCnpj"></p>
+    </div>
+
+    <div class="api-box">
+        <h3>Buscar DDD</h3>
+        <input type="text" id="ddd" placeholder="Digite o DDD">
+        <button onclick="buscarDDD()">Buscar</button>
+        <p id="resultadoDdd"></p>
+    </div>
+</section>
+
+<section id="contato">
+    <h2>Contato</h2>
+    <form>
+        <input type="text" placeholder="Seu nome">
+        <input type="email" placeholder="Seu email">
+        <input placeholder="Sua mensagem">
+        <button type="submit">Enviar</button>
+    </form>
+</section>
+
+<footer>
+    <p>João Victor - Projeto de FrontEnd 1° Semestre</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
